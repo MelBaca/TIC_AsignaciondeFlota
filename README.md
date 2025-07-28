@@ -2,15 +2,6 @@
 
 Este repositorio contiene la implementación de dos modelos matemáticos para resolver el problema de asignación de flota de vehículos con múltiples depósitos (MDVSP, por sus siglas en inglés). El proyecto está organizado en dos carpetas principales:
 
-## 📁 Estructura del Repositorio
-├── CODIGO/
-│ ├── GeneracionColumnas
-├── INSTANCIAS/
-│ ├── instancia1_Viajes.csv
-│ ├── instancia1_terminales.csv
-│ ├── ...
-└── README.md
-
 - **`INSTANCIAS/`**: Contiene los archivos `.csv` que representan los datos de entrada utilizados para probar los modelos. Cada archivo define una instancia del MDVSP.
 
 - **`CODIGO/`**: Incluye el código fuente en C++ que implementa los modelos matemáticos y sus cotas. Aquí se encuentran:
@@ -18,20 +9,20 @@ Este repositorio contiene la implementación de dos modelos matemáticos para re
   - El **modelo basado en rutas**, que utiliza una representación por rutas completas asignables a los vehículos.
   - La implementación de **cotas inferiores** para ambos enfoques.
 
-## 🧠 Descripción del Problema
+## Descripción del Problema
 
 El **MDVSP (Multi-Depot Vehicle Scheduling Problem)** es un problema clásico de optimización en el que se busca asignar vehículos a  viajes minimizando el costo total, considerando que existen múltiples depósitos de donde los vehículos pueden partir y retornar.
 
 Este problema tiene aplicaciones directas en la planificación de flotas en sistemas de transporte público.
 
-## 🛠️ Tecnologías y Herramientas
+## Tecnologías y Herramientas
 
 - **Lenguaje de programación**: C++
 - **Entorno de desarrollo**: [Visual Studio 2022](https://visualstudio.microsoft.com/)
 - **Solver**: [Gurobi Optimizer](https://www.gurobi.com/)
   - Se configuró correctamente la licencia de Gurobi para su uso con Visual Studio.
 
-## 🚀 Ejecución
+## Ejecución
 
 1. **Configurar Visual Studio 2022**:
    - Asegúrate de tener instalado Visual Studio con soporte para C++.
